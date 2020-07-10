@@ -1,0 +1,41 @@
+/* .arif a{
+    border-bottom: 4px double #9b9b9b
+} */
+#menu li{
+    position: relative;
+    z-index: 2;
+}
+#menu li ul{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    left: -9999px;
+}
+#menu li:hover ul{
+    left: 0;
+    
+}
+#menu li ul li{
+    float: none;
+    width: 100px;
+    padding: 5px;
+}
+#menu li ul li a{
+    text-decoration: none;
+}
+.polular-tag li{
+    list-style-type: katakana;
+}
+pre{
+    overflow: hidden;
+}
+.card-deck .card{
+    border: none;
+}
+
+.casual-shirt .card{
+    border: none;
+}
+.footer-row li{
+    list-style-type: none;
+}
